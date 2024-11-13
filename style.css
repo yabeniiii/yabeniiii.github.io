@@ -1,4 +1,6 @@
 body {
+  height: 100vw;
+  width: 100vw;
   background-color: #3b4252;
   color: #e5e9f0;
 }
@@ -10,4 +12,8 @@ body {
   margin: 2rem;
   width: 10rem;
   height: calc(100% - 4rem);
+
+  a {
+    color: #e5e9f0;
+  }
 }
