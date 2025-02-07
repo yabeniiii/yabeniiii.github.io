@@ -27,7 +27,6 @@ body {
   flex-direction: column;
   margin: 2rem;
   padding: 2rem;
-  width: 10rem;
   height: calc(100% - 8rem);
 
   img {
