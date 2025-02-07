@@ -20,6 +20,7 @@ body {
   padding: 0rem;
   width: calc(100% - 2rem);
   height: 0.1rem;
+  background-color: #d8dee9;
 }
 
 .sidebar {
