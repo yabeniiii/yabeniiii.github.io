@@ -1,11 +1,13 @@
 html {
   height: 100vh;
-  width: 100vw;
+  width: min-content;
 }
 
 body {
+  display: flex;
+  flex-direction: row;
   position: absolute;
-  height: 100%;
+  height: min-content;
   width: 100%;
   margin: 0px;
   background-color: #3b4252;
@@ -27,8 +29,8 @@ body {
   flex-direction: column;
   margin: 2rem;
   padding: 2rem;
-  height: calc(100% - 8rem);
-  width: min-content;
+  height: calc(100vh - 8rem);
+  width: 11rem;
 
   img {
     aspect-ratio: 1 / 1;
@@ -36,10 +38,38 @@ body {
     margin: 0px;
     padding: 0px;
   }
+}
 
-  a {
-    color: #e5e9f0;
-    display: flex;
-    flex-direction: row;
+.content {
+  width: calc(100% - 15rem);
+
+  img {
+    width: calc(100% - 2rem);
+    margin: 1rem;
+  }
+
+  p {
+    margin-top: 0px;
+    margin-left: 1rem;
+  }
+}
+
+a {
+  color: #e5e9f0;
+  display: flex;
+  flex-direction: row;
+}
+
+.coolLink {
+  border: 0.1rem solid #d8dee9;
+  margin: none;
+  padding: 1rem;
+
+  h3 {
+    margin: 0.25rem;
+  }
+
+  p {
+    margin: 0.25rem;
   }
 }
