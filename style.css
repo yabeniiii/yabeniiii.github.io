@@ -42,6 +42,8 @@ body {
 
 .content {
   width: calc(100% - 15rem);
+  padding: none;
+  padding-top: 2rem;
 
   img {
     width: calc(100% - 2rem);
@@ -62,7 +64,10 @@ a {
 
 .coolLink {
   border: 0.1rem solid #d8dee9;
-  margin: none;
+  margin-top: none;
+  margin-bottom: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
   padding: 1rem;
 
   h3 {
